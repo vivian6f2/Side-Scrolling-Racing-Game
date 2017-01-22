@@ -1,0 +1,389 @@
+header {
+	background-image: url("image/background_header_and_footer.png");
+	background-repeat: repeat;
+	width: 1000px;
+	height: 60px;
+	margin: auto;
+}
+footer{
+	background-image: url("image/background_header_and_footer.png");
+	background-repeat: repeat;
+	width:1000px;
+	height:60px;
+	margin: auto;
+}
+body{
+	font-family: "微軟正黑體";
+	color: #005dc7;
+	font-size: 20px;
+	text-align: center;	
+	line-height:100%;
+}
+h1{
+	font-family: "微軟正黑體";
+	color: #005dc7;
+	font-size: 30px;
+	text-align: center;	
+	display: inline-block;
+}
+h2{
+	font-family: "微軟正黑體";
+	color: #005dc7;
+	font-size: 10px;
+	text-align: center;	
+	display: inline-block;
+	line-height:50px;
+}
+h3{
+	padding-left:10px;
+	font-family: "微軟正黑體";
+	color: #005dc7;
+	font-size: 20px;
+	text-align: left;	
+	display: inline-block;
+	line-height:50px;
+}
+h4{
+	font-family: "微軟正黑體";
+	color: #005dc7;
+	font-size: 25px;
+	text-align: center;	
+	display: inline-block;
+	line-height:30px;
+	margin-left:40px;
+}
+#total_path{
+	background-color: #81BCF8;
+	display: inline-block;
+	width:600px; 
+	height:20px; 
+	position:absolute; 
+	top:500px; 
+	left:50%;
+	margin-left:-300px;
+	border-radius: 5px;
+	z-index:500;
+}
+#char_path{
+	background-color: #1888F8;
+	display: inline-block;
+	width:100px; 
+	height:20px; 
+	position:absolute; 
+	top:500px; 
+	left:50%;
+	margin-left:-300px;
+	border-radius: 5px;
+	z-index:1500;
+}
+#flag_path{
+	display: inline-block;
+	width:100px; 
+	height:20px; 
+	position:absolute; 
+	top:500px; 
+	left:50%;
+	margin-left:-300px;
+	border-radius: 5px;
+	z-index:2000;
+}
+#content{
+	background-image: url("image/background_normal.png");
+	background-repeat: repeat;
+	width:1000px;
+	height:500px;
+	margin: auto;
+}
+#detailPage{
+	position:absolute;
+	background-color: #FFF7C4;
+	width:400px;
+	height:550px;
+	margin-top:40px;
+	left:50%;
+	margin-left:-200px;
+	display:none;
+	z-index:10000;
+	border-radius: 8px;
+	border: 6px solid #04B804;
+}
+#savePage{
+	position:absolute;
+	background-color: #FFF7C4;
+	width:400px;
+	height:300px;
+	margin-top:100px;
+	left:50%;
+	margin-left:-200px;
+	display:none;
+	z-index:8000;
+	border-radius: 8px;
+	border: 6px solid #04B804;
+}
+#saveSuccessPage{
+	position:absolute;
+	background-color: #FFF7C4;
+	width:400px;
+	height:300px;
+	margin-top:100px;
+	left:50%;
+	margin-left:-200px;
+	display:none;
+	z-index:8000;
+	border-radius: 8px;
+	border: 6px solid #04B804;
+}
+#winPage{
+	position:absolute;
+	background-color: #ECFFC7;
+	width:400px;
+	height:300px;
+	margin-top:100px;
+	left:50%;
+	margin-left:-200px;
+	display:none;
+	z-index:8000;
+	border-radius: 8px;
+	border: 6px solid #04B804;
+}
+#losePage{
+	position:absolute;
+	background-color: #CCCCCC;
+	width:400px;
+	height:300px;
+	margin-top:100px;
+	left:50%;
+	margin-left:-200px;
+	display:none;
+	z-index:8000;
+	border-radius: 8px;
+	border: 6px solid #555555;
+}
+#makeleft{
+	//background-color: #225544;
+	float:left;
+	width: 150px;
+}
+#makeright{
+	//background-color: #020504;
+	float:right;
+	width: 150px;
+}
+#makecenter{
+	//background-color: #020202;
+	float:left;
+	width: 700px;
+	height: 380px;
+	margin-top:30px;
+}
+#gameCanvas{
+	width:600px; 
+	height:360px; 
+	border-style: solid; 
+	border-width: 1px; 
+	background-image: url("image/background.jpg");
+	background-repeat: repeat;
+	position:absolute; 
+	top:120px; 
+	left:50%;
+	margin-left:-300px;
+}
+#gameCanvas_front{
+	width:600px; 
+	height:360px; 
+	border-style: solid; 
+	border-width: 1px; 
+	background-color: rgba(100%,100%,100%,0);
+	position:absolute; 
+	top:120px; 
+	left:50%;
+	margin-left:-300px;
+	z-index:5000;
+}
+#gameCanvas_front_front{
+	width:600px; 
+	height:360px; 
+	border-style: solid; 
+	border-width: 1px; 
+	background-color: rgba(100%,100%,100%,0);
+	position:absolute; 
+	top:120px; 
+	left:50%;
+	margin-left:-300px;
+	z-index:5000;
+}
+#level_menu{
+	font-size: 15px;
+	width:100%;
+	height:80%;
+	border: 0px solid #1888F8;
+}
+#level_menu_td{
+	background-image: url("image/background_level_menu.png");
+	background-repeat: repeat;
+	width:100px;
+	height:100px;
+	border-radius: 8px;
+	border: 0px solid #1888F8;
+}
+#level_menu_null_td{
+	width:100px;
+	height:100px;
+	border-radius: 8px;
+	border: 0px solid #1888F8;
+}
+.explainPage{
+	position:absolute;
+	top:500px;
+	left:300px;
+	
+	padding-left:10px;
+	padding-right:10px;
+	font-family: "微軟正黑體";
+	color: #005dc7;
+	font-size: 20px;
+	text-align: left;	
+	display: inline-block;
+	line-height:50px;
+	
+	background-color: #FFF7C4;
+	display:none;
+	z-index:5000;
+	border-radius: 8px;
+	border: 3px solid #04B804;
+}
+.button{
+	background-color: #81BCF8;
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+}
+.button:hover{
+	background-color: #1888F8;
+}
+.bigButton{
+	background-color: #81BCF8;
+	display: inline-block;
+	padding: 25px 38px;
+	font-size: 50px;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+}
+.bigButton:hover{
+	background-color: #1888F8;
+}
+.back{
+	background: url("image/back.png") no-repeat;
+    background-size: 40px 40px;
+	height:40px;
+	width:40px;
+	display: inline-block;
+	padding-top: 15px;
+	font-size: 10px;
+	cursor: pointer;
+	text-align: right;	
+	text-decoration: none;
+	outline: none;
+	color: #81BCF8;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.back:hover{
+	background: url("image/back_hover.png") no-repeat;
+    background-size: 40px 40px;
+	color: #1888F8;
+}
+.backNoFloat{
+	background: url("image/back.png") no-repeat;
+    background-size: 40px 40px;
+	height:40px;
+	width:40px;
+	display: inline-block;
+	//padding: 10px 15px;
+	font-size: 10px;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #81BCF8;
+}
+.backNoFloat:hover{
+	background: url("image/back_hover.png") no-repeat;
+    background-size: 40px 40px;
+	color: #1888F8;
+}
+.option{
+	background: url("image/gear.png") no-repeat;
+    background-size: 40px 40px;
+	height:40px;
+	width:40px;
+	float:right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.option:hover{
+	background: url("image/rotate_gear.gif") no-repeat;
+    background-size: 40px 40px;
+}
+.closeButton{
+	background: url("image/close.png") no-repeat;
+    background-size: 40px 40px;
+	height:40px;
+	width:40px;
+	float:right;
+}
+.closeButton:hover{
+	background: url("image/close_press.png") no-repeat;
+    background-size: 40px 40px;
+}
+.left{
+	background: url("image/left.png") no-repeat;
+    background-size: 40px 40px;
+	height:40px;
+	width:40px;
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 10px;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #81BCF8;
+}
+.left:hover{
+	background: url("image/left_hover.png") no-repeat;
+    background-size: 40px 40px;
+	color: #1888F8;
+}
+.right{
+	background: url("image/right.png") no-repeat;
+    background-size: 40px 40px;
+	height:40px;
+	width:40px;
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 10px;
+	cursor: pointer;
+	text-align: left;	
+	text-decoration: none;
+	outline: none;
+	color: #81BCF8;
+}
+.right:hover{
+	background: url("image/right_hover.png") no-repeat;
+    background-size: 40px 40px;
+	color: #1888F8;
+}
