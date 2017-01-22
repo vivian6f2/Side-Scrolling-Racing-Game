@@ -1,2 +1,3 @@
 # Side-Scrolling-Racing-Game
-a 2D web side-scrolling game
+A 2D web side-scrolling game
+Coding with JavaScript, PHP, HTML, CSS
